@@ -127,7 +127,7 @@ class CodebaseModel:
         # Process response and return the JSON object
         
         
-        print(f"\nRESPONSE:")
+        print("\nRESPONSE:")
         print(json.dumps(response, indent=2))
 
         return response
